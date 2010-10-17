@@ -518,7 +518,11 @@ int main(int argc, char **argv)
             break;
 
             case 'C':
+<<<<<<< HEAD
                 setColoredOutput();
+=======
+                android_log_setColoredOutput(g_logformat, 1);
+>>>>>>> 36459d7... ADB Logcat colored output.
             break;
 
             case 'b': {
